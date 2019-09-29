@@ -1,0 +1,30 @@
+h1{
+	color : #800000;
+	font-family: arial;
+	text-align: center;
+}
+table,tr, td{
+	background-color: #FFC0CB;
+	font-family: arial;
+	color : black;
+	border :0px solid aqua;
+	padding: 5px
+	border-collapse : collapse;
+}
+.posisi {
+	position : absolute;
+	margin-left: auto;
+	margin-right:auto;
+	margin-bottom:auto;
+	margin-top:auto;
+	left:0;
+	right:0;
+	top:100px;
+	bottom:0; 
+}
+body{
+	background : url('https://datuakmudosewonblink.files.wordpress.com/2015/09/1.jpg');
+	background-repeat : no-repeat;
+	background-position: center;
+	bacground-size:1400px auto;
+}
