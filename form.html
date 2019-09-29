@@ -3,51 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <title>Form Pendaftaran</title>
+    <link rel="stylesheet" href="form.css">
 </head>
 <body>
 <form action="contact.php" method="POST">
     <fieldset>
-        <legend>Registrasi</legend>
-        <p>
-            <label>Nama:</label>
-            <input type="text" name="nama" placeholder="Nama lengkap Anda" />
-        </p>
-        <p>
-            <label>Username:</label>
-            <input type="text" name="username" placeholder="Username" />
-        </p>
-        <p>
-            <label>Email:</label>
-            <input type="email" name="email" placeholder="E-mail Anda" />
-        </p>
-        <p>
-            <label>Password:</label>
-            <input type="password" name="password" placeholder="Passowrd baru" />
-        </p>
-        <p>
-            <label>Jenis kelamin:</label>
-            <label><input type="radio" name="jenis_kelamin" value="laki-laki" /> Laki-laki</label>
-            <label><input type="radio" name="jenis_kelamin" value="perempuan" /> Perempuan</label>
-        <p>
-            <label>Tanggal Lahir:</label>
-            <input type="date" name="tanggal" />
-        </p>
-        <p>
-            <label>Umur:</label>
-            <input type="number" min="10" max="90" name="umur" />
-        </p>
-        <p>
-            <label>Agama:</label>
-            <select name="agama">
+        <h1>Registrasi</h1>
+        <div class="container" id="registrasi">
+            <table>
+        <tr>
+            <td><label>Nama:</label></td>
+            <td><input type="text" name="nama" placeholder="Nama lengkap Anda" /></td>
+        </tr>
+        <tr>
+            <td><label>Username:</label></td>
+            <td><input type="text" name="username" placeholder="Username" /></td>
+        </tr>
+        <tr>
+            <td><label>Email:</label></td>
+            <td><input type="email" name="email" placeholder="E-mail Anda" /></td>
+        </tr>
+        <tr>
+            <td><label>Password:</label></td>
+            <td><input type="password" name="password" placeholder="Passowrd baru" /></td>
+        </tr>
+        <tr>
+            <td><label>Jenis kelamin:</label></td>
+            <td><label><input type="radio" name="jenis_kelamin" value="laki-laki" /> Laki-laki</label></td>
+            <td><label><input type="radio" name="jenis_kelamin" value="perempuan" /> Perempuan</label></td>
+        </tr>
+        <tr>
+            <td><label>Tanggal Lahir:</label></td>
+            <td><input type="date" name="tanggal" /></td>
+        </tr>
+        <tr>
+            <td><label>Umur:</label></td>
+            <td><input type="number" min="10" max="90" name="umur" /></td>
+        </tr>
+        <tr>
+            <td><label>Agama:</label></td>
+            <td><select name="agama">
                 <option value="islam">Islam</option>
                 <option value="kristen">Kristen</option>
                 <option value="hindu">Hindu</option>
                 <option value="budha">Budha</option>
-            </select>
-        </p>
-        <p>
-            <input type="submit" name="submit" value="Daftar" />
-        </p>
+            </select></td>
+        </tr>
+        <tr>
+            <td><input type="submit" name="submit" value="Daftar" /></td>
+        </tr>
+            </table>
+        </div>
     </fieldset>
     </form>
 </body>
